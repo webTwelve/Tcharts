@@ -1,0 +1,57 @@
+{
+  "name": "xy-design",
+  "private": false,
+  "license": "MIT",
+  "version": "1.0.9",
+
+  "keywords": [
+    "xy",
+    "晓羊",
+    "xy-design"
+  ],
+  "scripts": {
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "bin": {
+    "vue-fix": "bin/vue-fix.js",
+    "vue-switch": "bin/vue-switch.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://nexus3.service.xiaoyangedu.net/repository/npm-hosted/"
+  },
+  "sideEffects": false,
+  "typings": "types/index.d.ts",
+  "main": "lib/index.mjs",
+  "module": "lib/index.mjs",
+  "style": "lib/style.css",
+  "exports": {
+    "./lib/style.css": "./lib/style.css",
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.umd.js"
+    }
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.1.0",
+    "vue": "^2.6.0 || ^3.2.0",
+    "echarts": "^5.4.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    },
+    "@vue/composition-api": {
+      "optional": true
+    },
+    "echarts": {
+      "optional": true
+    }
+  },
+  "files": [
+    "lib",
+    "types",
+    "bin",
+    "scripts"
+  ]
+}

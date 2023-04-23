@@ -1,0 +1,11 @@
+{
+  "name": "@xy-design/utils",
+  "private": true,
+  "license": "MIT",
+  "main": "index.ts",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "vue-demi": "^0.13.11"
+  }
+}

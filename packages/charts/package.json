@@ -1,0 +1,15 @@
+{
+  "name": "@xy-design/charts",
+  "private": true,
+  "description": "所有的图表",
+  "license": "MIT",
+  "main": "index.ts",
+  "version": "0.0.1",
+  "dependencies": {
+    "@xy-design/utils": "workspace:^0.0.1",
+    "echarts": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/echarts": "^4.9.16"
+  }
+}

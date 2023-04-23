@@ -1,0 +1,11 @@
+{
+  "name": "@xy-design/components",
+  "private": true,
+  "description": "所有的组件",
+  "license": "MIT",
+  "main": "index.ts",
+  "version": "0.0.1",
+  "dependencies": {
+    "@xy-design/utils": "workspace:^0.0.1"
+  }
+}

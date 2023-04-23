@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declarationDir": "types",
+    "declaration": true,
+    "strict": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "lib": [
+      "esnext",
+      "dom"
+    ]
+  },
+  "types": [
+    "vite/client"
+  ],
+  "include": [
+    "packages/**/*.vue",
+    "packages/**/*.ts",
+    "packages/**/*.d.ts",
+    "packages/**/src",
+    "shims-vue.d.ts",
+    "Global.d.ts",
+  ],
+  "exclude": [
+    "packages/xy-design-v2",
+    "packages/example",
+    "packages/**/node_modules",
+    "node_modules/*"
+  ]
+}
