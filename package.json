@@ -5,10 +5,10 @@
     "dev": "npx vue-demi-switch 3 && cd packages/example && npm run dev",
     "build": "pnpm build3 && pnpm build2",
     "build3": "npx vue-demi-switch 3 && vite build",
-    "build2": "npx vue-demi-switch 2 && cd packages/xy-design-v2 && vite build",
+    "build2": "npx vue-demi-switch 2 && cd packages/t-design-v2 && vite build",
     "build:demo": "cd packages/example && npm run build",
-    "postinstall": "husky install && cd packages/xy-design-v2 && npm i",
-    "publish": "cd packages/xy-design && npm publish",
+    "postinstall": "husky install && cd packages/t-design-v2 && npm i",
+    "publish": "cd packages/t-design && npm publish",
     "lint": "vue-tsc --noEmit --skipLibCheck && eslint --ext .js,.vue,.ts, --ignore-path .gitignore . --fix"
   },
   "gitHooks": {
@@ -21,9 +21,9 @@
   },
   "dependencies": {
     "@vueuse/core": "^9.5.0",
-    "@xy-design/charts": "workspace:^0.0.1",
-    "@xy-design/components": "workspace:^0.0.1",
-    "@xy-design/utils": "workspace:^0.0.1",
+    "@t-design/charts": "workspace:^0.0.1",
+    "@t-design/components": "workspace:^0.0.1",
+    "@t-design/utils": "workspace:^0.0.1",
     "crypto-js": "^4.1.1",
     "dayjs": "^1.11.6",
     "echarts": "^5.4.0",

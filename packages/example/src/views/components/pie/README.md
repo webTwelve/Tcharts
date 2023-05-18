@@ -1,9 +1,9 @@
 ## 安装依赖
 
 ```shell
-npm install xy-design --registry https://nexus3.service.xiaoyangedu.net/repository/npm-hosted/ -S
+npm install t-design --registry https://nexus3.service.xiaoyangedu.net/repository/npm-hosted/ -S
 // or
-yarn add xy-design --registry https://nexus3.service.xiaoyangedu.net/repository/npm-hosted/ -S
+yarn add t-design --registry https://nexus3.service.xiaoyangedu.net/repository/npm-hosted/ -S
 ```
 
 # 饼图
@@ -33,8 +33,8 @@ yarn add xy-design --registry https://nexus3.service.xiaoyangedu.net/repository/
 ## 使用示例
 
 ```typescript
-import { XYPie } from "xy-design";
-import type { PieTheme, PieProps } from "xy-design";
+import { XYPie } from "t-design";
+import type { PieTheme, PieProps } from "t-design";
 
 const pieTheme = ref<PieTheme>("light");
 const pieOption = reactive<PieProps>({

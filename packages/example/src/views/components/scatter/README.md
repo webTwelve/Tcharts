@@ -23,10 +23,10 @@
 ## 使用示例
 
 ```typescript
-import { XYScatter } from "xy-design";
+import { XYScatter } from "t-design";
 import type {
   ScatterTheme,
-  ScatterProps } from "xy-design";
+  ScatterProps } from "t-design";
 
 // 普通散点图
 const scatterTheme = ref<ScatterTheme>("dark");

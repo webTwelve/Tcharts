@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-import { XYRadar } from "@xy-design/charts";
-import type { RadarProps, RadarTheme } from "@xy-design/charts";
+import { XYRadar } from "@t-design/charts";
+import type { RadarProps, RadarTheme } from "@t-design/charts";
 import markdown from "markdown-it";
 import readme from "./README.md?raw";
 

@@ -22,8 +22,8 @@
 ### 使用示例
 
 ```typescript
-import { XYGaugeProgress } from "xy-design";
-import type {GaugeTheme, GaugeOptions, GaugeOptionsData } from "xy-design";
+import { XYGaugeProgress } from "t-design";
+import type {GaugeTheme, GaugeOptions, GaugeOptionsData } from "t-design";
 
 const theme= ref<GaugeTheme>('light')
 const data:GaugeOptionsData =[
@@ -56,8 +56,8 @@ const options =reactive<GaugeOptions>({
 ### 使用示例
 
 ```typescript
-import { XYDrawDevice } from "xy-design";
-import type {DrawDeviceMode } from "xy-design";
+import { XYDrawDevice } from "t-design";
+import type {DrawDeviceMode } from "t-design";
 
 const mode= ref<DrawDeviceMode>('card')
 const state =reactive<GaugeOptions>({
@@ -103,8 +103,8 @@ const state =reactive<GaugeOptions>({
 ### 使用示例
 
 ```TS
-import { XYLine } from "xy-design";
-import type {IOptionsLine,LineTheme } from "xy-design";
+import { XYLine } from "t-design";
+import type {IOptionsLine,LineTheme } from "t-design";
 
 const theme= ref<LineTheme>('light')
 const Options =reactive<IOptionsLine>( {
@@ -154,8 +154,8 @@ const Options =reactive<IOptionsLine>( {
 ### 使用示例
 
 ```TS
-import { XYPie } from "xy-design";
-import type {IOptionsPie,PieTheme } from "xy-design";
+import { XYPie } from "t-design";
+import type {IOptionsPie,PieTheme } from "t-design";
 
 const theme= ref<PieTheme>('light')
 const Options =reactive<IOptionsPie>({
@@ -187,7 +187,7 @@ const Options =reactive<IOptionsPie>({
 ### 使用示例
 
 ```TS
-import { XYWordCloud } from "xy-design";
+import { XYWordCloud } from "t-design";
 
 const Options =reactive({
       data: [
@@ -219,6 +219,6 @@ const Options =reactive({
 ### 使用示例
 
 ```TS
-import { XYProgressBar } from "xy-design";
+import { XYProgressBar } from "t-design";
 <XYProgressBar  progressTitle="标题" :progressWidth='60' />
 ```

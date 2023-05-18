@@ -1,4 +1,4 @@
-import { withInstall } from "@xy-design/utils";
+import { withInstall } from "@t-design/utils";
 
 import ProgressBar from "./src/ProgressBar.vue";
 

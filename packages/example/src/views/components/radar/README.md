@@ -29,8 +29,8 @@
 ## 使用示例
 
 ```typescript
-import { XYRadar } from "xy-design";
-import type { RadarProps, RadarTheme } from "xy-design";
+import { XYRadar } from "t-design";
+import type { RadarProps, RadarTheme } from "t-design";
 
 const radarTheme = ref<RadarTheme>("dark");
 const radarOption: RadarProps = {

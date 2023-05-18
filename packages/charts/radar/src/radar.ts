@@ -1,4 +1,4 @@
-import { color } from "@xy-design/utils/common/echarts";
+import { color } from "@t-design/utils/common/echarts";
 import type Radar from "./Radar.vue";
 import type { PropType, ExtractPropTypes } from "vue";
 import type { RadarSeriesOption } from "echarts";

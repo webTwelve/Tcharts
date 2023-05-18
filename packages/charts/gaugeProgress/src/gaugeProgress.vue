@@ -152,12 +152,12 @@ export default defineComponent({
 <template>
   <div
     :id="id"
-    class="xy-gauge-progress"
+    class="t-gauge-progress"
     :class="{ 'theme-dark': theme === 'dark' }"
   ></div>
 </template>
 <style lang="scss" scoped>
-.xy-gauge-progress {
+.t-gauge-progress {
   min-height: 300px;
   min-width: 400px;
   background-color: #ffffff;

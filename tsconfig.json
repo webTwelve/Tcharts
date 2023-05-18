@@ -30,7 +30,7 @@
     "Global.d.ts",
   ],
   "exclude": [
-    "packages/xy-design-v2",
+    "packages/t-design-v2",
     "packages/example",
     "packages/**/node_modules",
     "node_modules/*"

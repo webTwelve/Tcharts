@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { XYLine, XYWordCloud } from "@xy-design/charts";
-import { XYProgressBar } from "@xy-design/components";
+import { XYLine, XYWordCloud } from "@t-design/charts";
+import { XYProgressBar } from "@t-design/components";
 import { reactive, ref } from "vue-demi";
 const singleTheme = ref<"dark" | "light">("light");
 const singleTheme2 = ref<"dark" | "light">("light");

@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, reactive } from "vue";
-import { XYPie } from "@xy-design/charts";
-import type { PieTheme, PieProps } from "@xy-design/charts";
+import { XYPie } from "@t-design/charts";
+import type { PieTheme, PieProps } from "@t-design/charts";
 import markdown from "markdown-it";
 import readme from "./README.md?raw";
 

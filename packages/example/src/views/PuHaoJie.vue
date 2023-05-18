@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import { XYDrawDevice, XYTable } from "@xy-design/components";
-import type { RefInstence, Itemtype } from "@xy-design/components";
-import { XYGaugeProgress } from "@xy-design/charts";
+import { XYDrawDevice, XYTable } from "@t-design/components";
+import type { RefInstence, Itemtype } from "@t-design/components";
+import { XYGaugeProgress } from "@t-design/charts";
 import { reactive, ref } from "vue";
 import { Space, Button, Row, Col, message } from "ant-design-vue";
 import "ant-design-vue/dist/antd.css";

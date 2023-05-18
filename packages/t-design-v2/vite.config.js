@@ -14,10 +14,10 @@ export default defineConfig({
   },
   plugins: [createVuePlugin()],
   build: {
-    outDir: "../xy-design/lib/v2",
+    outDir: "../t-design/lib/v2",
     minify: true,
     lib: {
-      entry: resolve(__dirname, "../xy-design/index.ts"),
+      entry: resolve(__dirname, "../t-design/index.ts"),
       name: "index",
       fileName: "index",
       formats: ["es", "cjs", "umd"]

@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref } from "vue";
-import { XYScatter } from "@xy-design/charts";
-import type { ScatterTheme, ScatterProps } from "@xy-design/charts";
+import { XYScatter } from "@t-design/charts";
+import type { ScatterTheme, ScatterProps } from "@t-design/charts";
 import markdown from "markdown-it";
 import readme from "./README.md?raw";
 

@@ -4,7 +4,7 @@ import { existsSync, readdirSync, lstatSync, rmdirSync, unlinkSync } from "fs";
 import dts from "vite-plugin-dts";
 import vue from "@vitejs/plugin-vue";
 
-emptyDir(resolve(__dirname, "./packages/xy-design/types"));
+emptyDir(resolve(__dirname, "./packages/t-design/types"));
 // https://vitejs.dev/config/
 export default defineConfig({
   optimizeDeps: {
@@ -18,17 +18,17 @@ export default defineConfig({
   plugins: [
     vue(),
     dts({
-      outputDir: "./packages/xy-design/types",
+      outputDir: "./packages/t-design/types",
       skipDiagnostics: false,
       staticImport: true,
       insertTypesEntry: true,
       beforeWriteFile: (filePath, content) => {
         const path = filePath.split("types\\packages\\")[1];
         const paths = path?.split("\\");
-        if (content.includes("@xy-design")) {
+        if (content.includes("@t-design")) {
           paths.length -= 1;
           content = content.replace(
-            /@xy-design/g,
+            /@t-design/g,
             paths.map(() => "..").join("/")
           );
         }
@@ -40,9 +40,9 @@ export default defineConfig({
     })
   ],
   build: {
-    outDir: "./packages/xy-design/lib/v3",
+    outDir: "./packages/t-design/lib/v3",
     lib: {
-      entry: resolve(__dirname, "./packages/xy-design/index.ts"),
+      entry: resolve(__dirname, "./packages/t-design/index.ts"),
       name: "index",
       fileName: "index",
       formats: ["es", "cjs", "umd"]

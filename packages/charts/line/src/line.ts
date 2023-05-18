@@ -1,5 +1,5 @@
 import type Line from "./Line.vue";
-import { color } from "@xy-design/utils/common/echarts";
+import { color } from "@t-design/utils/common/echarts";
 import { PropType, ExtractPropTypes } from "vue";
 export type LineTheme = "dark" | "light";
 export type LineData = {

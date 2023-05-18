@@ -1,13 +1,13 @@
 <script lang="ts" setup>
 import { reactive, ref } from "vue";
-import { XYScatter, XYRadar, XYPie, PieProps } from "@xy-design/charts";
+import { XYScatter, XYRadar, XYPie, PieProps } from "@t-design/charts";
 import type {
   RadarProps,
   RadarTheme,
   ScatterTheme,
   ScatterProps,
   PieTheme
-} from "@xy-design/charts";
+} from "@t-design/charts";
 
 const radarTheme = ref<RadarTheme>("light");
 const radarOption: RadarProps = {

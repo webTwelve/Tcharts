@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { XYBar } from "@xy-design/charts";
-import { XYLeaderboard, XYDesingLoading } from "@xy-design/components";
+import { XYBar } from "@t-design/charts";
+import { XYLeaderboard, XYDesingLoading } from "@t-design/components";
 import { ref } from "vue-demi";
 
 const singleTheme = ref<"dark" | "light">("light");

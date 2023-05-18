@@ -24,7 +24,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="xy-design-loading">
+  <div class="t-design-loading">
     <div>
       <img src="../imgs/loading.gif" alt="" />
       <div class="tip">{{ options.tipText }}</div>
@@ -33,7 +33,7 @@ export default defineComponent({
 </template>
 
 <style lang="scss" scoped>
-.xy-design-loading {
+.t-design-loading {
   position: absolute;
   top: 0;
   left: 0;

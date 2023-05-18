@@ -1,4 +1,4 @@
-import { withInstall } from "@xy-design/utils";
+import { withInstall } from "@t-design/utils";
 
 import Bar from "./src/Bar.vue";
 

@@ -1,4 +1,4 @@
-import { color } from "@xy-design/utils/common/echarts";
+import { color } from "@t-design/utils/common/echarts";
 import type Pie from "./Pie.vue";
 import type { PropType, ExtractPropTypes } from "vue";
 

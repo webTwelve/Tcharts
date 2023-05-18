@@ -2,12 +2,12 @@ const { switchVersion, loadModule } = require("./utils");
 const Vue = loadModule("vue");
 if (!Vue || typeof Vue.version !== "string") {
   console.warn(
-    '[xy-design] Vue is not found. Please run "npm install vue" to install.'
+    '[t-design] Vue is not found. Please run "npm install vue" to install.'
   );
 } else if (Vue.version.startsWith("2.")) {
   switchVersion(2);
 } else if (Vue.version.startsWith("3.")) {
   switchVersion(3);
 } else {
-  console.warn(`[xy-design] Vue version v${Vue.version} is not suppported.`);
+  console.warn(`[t-design] Vue version v${Vue.version} is not suppported.`);
 }

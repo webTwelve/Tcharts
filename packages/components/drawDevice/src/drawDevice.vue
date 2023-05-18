@@ -79,7 +79,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="xy-draw-device">
+  <div class="t-draw-device">
     <div class="content">
       <template v-for="i in orderNum" :key="i">
         <div
@@ -131,7 +131,7 @@ export default defineComponent({
 </template>
 
 <style lang="scss" scoped>
-.xy-draw-device {
+.t-draw-device {
   .content {
     font-family: verdana, sans-serif;
     font-size: 40px;

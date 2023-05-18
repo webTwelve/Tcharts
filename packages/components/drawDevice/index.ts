@@ -1,4 +1,4 @@
-import { withInstall } from "@xy-design/utils";
+import { withInstall } from "@t-design/utils";
 
 import DrawDevice from "./src/drawDevice.vue";
 
